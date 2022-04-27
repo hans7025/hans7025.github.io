@@ -2,16 +2,27 @@
 sort: 2
 ---
 
-# Toasts Card
+# Install Guide
 
-THIS IS TOO LONG, NEED UPDATE! HERE IS SOME IDEAS:
+PLURA V5 Service OS 버전 가이드
 
-- https://primer.style/css/components/box
+- http://blog.plura.io/?page_id=17
+
 - https://primer.style/css/components/toasts
+
+
+```note
+#TEST1
+## [SIEM](../test_long/folder1/file1.md)
+```
+
+```note
+##TEST2
+## [Forensic](../test_long/folder1/file2.md)
+```
 
 ```note
 ## This is a note
-
 Markdown is supported, Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines
 
 `inline code`
