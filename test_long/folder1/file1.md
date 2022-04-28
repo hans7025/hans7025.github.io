@@ -10,7 +10,8 @@
 ## Log Collector > Custom Application
 # 응용프로그램 로그 분석 - Postfix
 
-
+[![you01](/assets/images/you01.png)](https://youtu.be/YmWLsadlIdM)
+<!-- {%include video.html id="9YtI-plPXm8"%} -->
 
 PLURA V5는 응용프로그램에 대한 로그를 업로드 설정을 이용하여 수집할 수 있습니다.
 
