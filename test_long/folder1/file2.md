@@ -1,9 +1,11 @@
 # Forensic
 
+![image](/assets/images/blog_Log-F.png)
+
 <details>
 <summary>PLURA V5 Log-F Agent Srv</summary>
 <div markdown="1">
-![image](/assets/images/blog_Log-F.png)
+<!-- ![image](/assets/images/blog_Log-F.png) -->
 
 ## PLURA V5 Log-F Agent Srv
 

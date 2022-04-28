@@ -1,10 +1,13 @@
 # SIEM
 
+![image](/assets/images/blog_LogC.png)
+
+
+
 <details>
 <summary>Log Collector > Custom Application</summary>
 <div markdown="1">
-![image](/assets/images/blog_LogC.png)
-
+<!-- ![image](/assets/images/blog_LogC.png) -->
 
 
 ## Log Collector > Custom Application
