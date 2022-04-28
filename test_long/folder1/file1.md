@@ -3,7 +3,7 @@
 <details>
 <summary>Log Collector > Custom Application</summary>
 <div markdown="1">
-![image](http://blog.plura.io/wp-content/uploads/2022/03/blog_banner-0323-1.png)
+![image](/assets/images/blog_LogC.png)
 
 ## Log Collector > Custom Application
 # 응용프로그램 로그 분석 - Postfix

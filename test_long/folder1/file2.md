@@ -3,7 +3,7 @@
 <details>
 <summary>PLURA V5 Log-F Agent Srv</summary>
 <div markdown="1">
-![image](http://blog.plura.io/wp-content/uploads/2021/07/blog_banner_20210802_2-1.png)
+![image](/assets/images/blog_Log-F.png)
 
 ## PLURA V5 Log-F Agent Srv
 
