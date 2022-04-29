@@ -1,5 +1,5 @@
 ---
-sort: 1
+sort: 2
 ---
 
 # Install Guide
@@ -23,11 +23,3 @@ PLURA V5 Service OS 버전 가이드
 PLURA V5 로그포렌식은 운영체제 로그분석을 100% 자동화하여 이상징후를 탐지합니다
 ```
 
-```note
-## This is a note
-Markdown is supported, Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines
-
-`inline code`
-
-[`inline code inside link`](./)
-```
