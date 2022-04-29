@@ -23,8 +23,7 @@
 >
 > *제조사가 지원 종료한 버전을 사용 중이라면 업그레이드에 대하여 보다 적극적인 검토가 필요합니다. 해킹과 장애 등 다양한 문제에 직면하고 심각한 문제로 발전할 수 있기 때문입니다.*
 
-[![you01](/assets/images/you_Forensic.png)](https://www.youtube.com/watch?v=SzMPzaImDwk)
-
+ <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/SzMPzaImDwk' frameborder='0' allowfullscreen></iframe></div>
 
 </div>
 </details>
