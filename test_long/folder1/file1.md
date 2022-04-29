@@ -13,8 +13,13 @@
 ## Log Collector > Custom Application
 # 응용프로그램 로그 분석 - Postfix
 
-[![you01](/assets/images/you01.png)](https://youtu.be/YmWLsadlIdM)
-<!-- {%include video.html id="9YtI-plPXm8"%} -->
+
+<!-- [![you01](/assets/images/you01.png)](https://youtu.be/YmWLsadlIdM) -->
+
+<!-- youtube -->
+ <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/YmWLsadlIdM' frameborder='0' allowfullscreen></iframe></div>
+
+
 
 PLURA V5는 응용프로그램에 대한 로그를 업로드 설정을 이용하여 수집할 수 있습니다.
 
