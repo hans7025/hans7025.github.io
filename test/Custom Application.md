@@ -1,6 +1,11 @@
+---
+permalink: /test/Install Guide/Siem/Custom Application
+layout: default
+---
+
 # SIEM
 
-![image](/assets/images/blog_LogC.png)
+![image](/assets/images/blog_LogC.png){: #magnific width="600"}
 
 
 

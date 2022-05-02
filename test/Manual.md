@@ -68,7 +68,6 @@ By **PLURA**|3월 23rd, 2022|Categories: **Manual, Manual_Common**|의 댓글을
 
 
 ![image](/assets/images/%EC%A0%84%EC%B2%B4%EB%A1%9C%EA%B7%B8_m.png)
-
 #### 전체로그(응용프로그램>사용자정의)
 
 <details>

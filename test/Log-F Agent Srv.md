@@ -1,6 +1,11 @@
+---
+permalink: /test/Install Guide/Forensic/Log-F Agent Srv
+layout: default
+---
+
 # Forensic
 
-![image](/assets/images/blog_Log-F.png)
+![image](/assets/images/blog_Log-F.png){: #magnific width="600"}
 
 <details>
 <summary>PLURA V5 Log-F Agent Srv</summary>
