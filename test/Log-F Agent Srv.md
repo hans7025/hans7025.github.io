@@ -3,13 +3,10 @@ permalink: /test/Install Guide/Forensic/Log-F Agent Srv
 layout: default
 ---
 
-# Forensic
 
-![image](/assets/images/blog_Log-F.png){: #magnific width="600"}
 
-<details>
-<summary>PLURA V5 Log-F Agent Srv</summary>
-<div markdown="1">
+PLURA V5 Log-F Agent Srv
+
 <!-- ![image](/assets/images/blog_Log-F.png) -->
 
 ## PLURA V5 Log-F Agent Srv
@@ -30,7 +27,5 @@ layout: default
 
  <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/SzMPzaImDwk' frameborder='0' allowfullscreen></iframe></div>
 
-</div>
-</details>
 
 source: `{{ page.path }}`

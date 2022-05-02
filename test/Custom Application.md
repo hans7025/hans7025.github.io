@@ -3,15 +3,11 @@ permalink: /test/Install Guide/Siem/Custom Application
 layout: default
 ---
 
-# SIEM
-
-![image](/assets/images/blog_LogC.png){: #magnific width="600"}
 
 
 
-<details>
-<summary>Log Collector > Custom Application</summary>
-<div markdown="1">
+ Log Collector > Custom Application
+
 <!-- ![image](/assets/images/blog_LogC.png) -->
 
 
@@ -40,6 +36,5 @@ Logstash는 다양한 소스로부터 데이터를 수집하고 곧바로 전환
 
 Logstash를 사용하면 시스템 로그, 웹 사이트 로그, 애플리케이션 서버 로그 등 다양한 데이터를 원본에서 비정형 데이터를 쉽게 수집할 수 있습니다.[2]
 
-</div>
-</details>
+
 source: `{{ page.path }}`
