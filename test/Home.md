@@ -2,5 +2,7 @@
 sort: 1
 ---
 
-# Home
+# Home 
+{:.text-center}
 [![image](/assets/images/home.png)](https://www.plura.io/)
+{: .align-center}

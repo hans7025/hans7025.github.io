@@ -9,6 +9,7 @@ layout: default
 
 
 # Install Guide
+{:.text-center}
 
 PLURA V5 Service OS 버전 가이드
 
