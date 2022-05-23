@@ -10,7 +10,7 @@ github_username: MichaelCurrin
 ### Build settings ###
 
 url: https://hans7025.github.io
-baseurl: /fractal
+baseurl: ""
 
 # Required on GH Pages to enable plugins.
 plugins:
