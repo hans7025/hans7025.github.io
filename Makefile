@@ -1,54 +1,39 @@
-DEBUG=JEKYLL_GITHUB_TOKEN=blank PAGES_API_URL=http://0.0.0.0
-ALIAS=jekyll-rtd-theme
+default: install
 
-help:
-	@echo "HomePage: https://github.com/rundocs/${ALIAS}\n"
-	@echo "Usage:"
-	@echo "    make [subcommand]\n"
-	@echo "Subcommands:"
-	@echo "    install   Install the theme dependencies"
-	@echo "    format    Format all files"
-	@echo "    report    Make a report from Google lighthouse"
-	@echo "    clean     Clean the workspace"
-	@echo "    dist      Build the theme css and script"
-	@echo "    status    Display status before push"
-	@echo "    theme     Make theme as gem and install"
-	@echo "    build     Build the test site"
-	@echo "    server    Make a livereload jekyll server to development"
-	@echo "    checkout  Reset the theme minified css and script to last commit"
+all: hooks install build build-gem
 
-checkout:
-	@git checkout _config.yml
-	@git checkout assets/js/theme.min.js
-	@git checkout assets/css/theme.min.css
+h help:
+	@grep '^[a-z]' Makefile
+
+
+.PHONY: hooks
+hooks:
+	cd .git/hooks && ln -s -f ../../hooks/pre-push pre-push
 
 install:
-	@gem install jekyll bundler
-	@npm install
-	@bundle install
+	bundle config set --local path vendor/bundle
+	bundle install
 
-format:
-	@npm run format
+upgrade:
+	bundle update
 
-report:
-	@npm run report
 
-clean:
-	@bundle exec jekyll clean
+logos:
+	bin/install_logos.sh
 
-dist: format clean
-	@npm run build
+logos-commit:
+	git add _includes/logos
+	git commit -m "feat: update logos"
 
-status: format clean checkout
-	@git status
 
-theme: dist
-	@gem uninstall ${ALIAS}
-	@gem build *.gemspec
-	@gem install *.gem && rm -f *.gem
+build-gem:
+	gem build fractal.gemspec
 
-build: dist
-	@${DEBUG} bundle exec jekyll build --safe --profile
 
-server: dist
-	@${DEBUG} bundle exec jekyll server --safe --livereload
+# Demo site.
+
+s serve:
+	bundle exec jekyll serve --trace --livereload
+
+build:
+	JEKYLL_ENV=production bundle exec jekyll build --trace

@@ -1,9 +1,8 @@
-source "https://rubygems.org" # source "https://gems.ruby-china.com"
+# frozen_string_literal: true
 
+source "https://rubygems.org"
 gemspec
 
-gem "github-pages", group: :jekyll_plugins
-
+gem "jekyll", "~> 3.9"
+gem "kramdown-parser-gfm", "~> 1.1.0"
 gem "webrick", "~> 1.7"
-
-

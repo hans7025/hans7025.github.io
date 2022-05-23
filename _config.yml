@@ -1,34 +1,59 @@
-title: PLURA V5 BLOG
-description: Just another documentation theme compatible with GitHub Pages
+### Site metadata ###
 
-theme: null
+title: Fractal
+description: A Jekyll theme based on Minima, with support for coding icons and an infinite number of nested directory levels
 
-# debug:
-#   compress: true
-#   dist: false
-#   shortcodes: true
+author: Michael Currin
+email:
+github_username: MichaelCurrin
 
-readme_index:
-  with_frontmatter: true
+### Build settings ###
 
+url: https://michaelcurrin.github.io
+baseurl: /fractal
 
-
+# Required on GH Pages to enable plugins.
 plugins:
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
- 
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Some values below borrowed from minima theme.
+
+show_excerpts: false
+
+fractal:
+  date_format: "%b %-d, %Y"
+
+titles_from_headings:
+  strip_title: true
+
+header_pages:
+  - index.md
+  - demo/index.md
+  - logos.md
+  - flexbox.md
+  - table-demo.md
+  - cli-demo.md
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
 
 exclude:
-  - Makefile
-  - CNAME
-  - LICENSE
-  - update.sh
+  - bin/
+  - docs/
+  - hooks/
+  - simple-icons/
+  - vendor/
   - Gemfile
-  - Gemfile.lock
-  - requirements.txt
-  - node_modules
-  - package.json
-  - package-lock.json
-  - webpack.config.js
-  - jekyll-rtd-theme.gemspec
+  - LICENSE
+  - Makefile
+  - fractal.gemspec
+  - "*.gem"
+  - README.md
+
+# This is only needed in the theme itself so that it builds with Jekyll 3 (see
+# head.html), but without actually using the Remote Theme plugin.
+remote_theme: ""
